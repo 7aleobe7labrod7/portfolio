@@ -14,47 +14,51 @@ Este proyecto es un portafolio desarrollado con Ruby on Rails, mostrando algunos
 
 Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
-<h3>1. Clona el repositorio:</h3>
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+### 1. Clona el repositorio con el siguiente comando:
+    git clone https://github.com/tu-usuario/tu-repositorio.git
 
-<h3>2. Navega al directorio del proyecto:</h3>
-   cd tu-repositorio
+### 2. Navega al directorio del proyecto en una terminal o con git bash:
+    cd tu-repositorio
 
-<h3>3. Instala las dependencias:</h3>
-   bundle install
+### 3. Instala las dependencias con la terminal:
+    bundle install
 
-<h3>4. Inicia el servidor:</h3>
-   rails server
+### 4. Inicia el servidor:
+    rails server
 
-
-Uso
+## Uso
 Una vez que el servidor esté en funcionamiento, puedes visitar las siguientes rutas en tu navegador:
 
-http://localhost:3000/home
-http://localhost:3000/projects
-http://localhost:3000/contact
+- * http://localhost:3000/home
 
-Estructura del Proyecto
-Rutas: Definidas en config/routes.rb.
-Controladores: Gestionan la visualización de las vistas y se encuentran en app/controllers.
-Vistas: Archivos HTML asociados a cada ruta, ubicados en app/views.
+- * http://localhost:3000/projects
 
-Proyectos
+- * http://localhost:3000/contact
+
+## Estructura del Proyecto
+1. Rutas: Definidas en config/routes.rb.
+
+2. Controladores: Gestionan la visualización de las vistas y se encuentran en app/controllers.
+
+3. Vistas: Archivos HTML asociados a cada ruta, ubicados en app/views.
+
+
+## Proyectos
 En la sección /projects se muestran algunos de los proyectos que he desarrollado. Aquí hay una lista de ellos:
 
 1. Iguana Page
 2. Cuppon Page
 3. Ricomida Page
 
-Contribuir
+### Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-Haz un fork del repositorio.
-Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').
-Haz push a la rama (git push origin feature/nueva-caracteristica).
-Abre un Pull Request.
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+3. Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').
+4. Haz push a la rama (git push origin feature/nueva-caracteristica).
+5. Abre un Pull Request.
 
-Contacto
+### Contacto
 Para más información o preguntas, puedes contactarme a través de mi correo electrónico ps.alabbe@gmail.com
 
 
