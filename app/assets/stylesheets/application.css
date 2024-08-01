@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .btn-primary {
+    background-color: #39FF14;
+    border-color: #39FF14;
+    color: #2F4F4F;
+}
+
+.btn-primary:hover {
+    background-color: #32CD32;
+    border-color: #32CD32;
+    color: #FFFFFF;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: #32CD32;
+}
